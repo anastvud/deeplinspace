@@ -9,3 +9,5 @@ A CNN is used as non-linear function approximator to represent the action-values
 The approach overcomes these instabilities using two key ideas:
 1. Experience replay, which stores past experiences in a memory buffer and samples experiences randomly for training, breaking correlations.
 2. Fixed Q-Target Network, which uses a separate target network to stabilize learning and periodically updates target network weights.
+
+Explanation to the code and results of the training can be found in notebook.
